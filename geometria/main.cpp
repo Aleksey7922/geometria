@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 using std::cout;
 using std::cin;
@@ -17,7 +17,7 @@ void main()
 
 
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî çâåçäî÷åê "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð²ÐµÐ·Ð´Ð¾Ñ‡ÐµÐº "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int i = 0; i < n; i++)
@@ -30,7 +30,7 @@ void main()
 
 #ifdef TRIANGLE_1
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî çâåçäî÷åê "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð²ÐµÐ·Ð´Ð¾Ñ‡ÐµÐº "; cin >> n;
 
 	for (int i = 0; i < n; i++)
 	{
@@ -46,7 +46,7 @@ void main()
 #ifdef TRIANGLE_2
 
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî çâåçäî÷åê "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð²ÐµÐ·Ð´Ð¾Ñ‡ÐµÐº "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n; j++)
@@ -61,7 +61,7 @@ void main()
 #ifdef TRIANGLE_3
 
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî çâåçäî÷åê "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð²ÐµÐ·Ð´Ð¾Ñ‡ÐµÐº "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < i; j++)cout << " ";
@@ -77,7 +77,7 @@ void main()
 
 #ifdef PLUS_MINUS
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî çâåçäî÷åê"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð²ÐµÐ·Ð´Ð¾Ñ‡ÐµÐº"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
